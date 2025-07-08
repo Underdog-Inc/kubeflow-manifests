@@ -26,8 +26,6 @@ kind: CustomResourceDefinition
 metadata:
   name: certificaterequests.cert-manager.io
   # START annotations
-  annotations:
-    helm.sh/resource-policy: keep
   # END annotations
   labels:
     app: 'cert-manager'
@@ -347,8 +345,6 @@ kind: CustomResourceDefinition
 metadata:
   name: certificates.cert-manager.io
   # START annotations
-  annotations:
-    helm.sh/resource-policy: keep
   # END annotations
   labels:
     app: 'cert-manager'
@@ -1116,8 +1112,6 @@ kind: CustomResourceDefinition
 metadata:
   name: challenges.acme.cert-manager.io
   # START annotations
-  annotations:
-    helm.sh/resource-policy: keep
   # END annotations
   labels:
     app: 'cert-manager'
@@ -4323,8 +4317,6 @@ kind: CustomResourceDefinition
 metadata:
   name: clusterissuers.cert-manager.io
   # START annotations
-  annotations:
-    helm.sh/resource-policy: keep
   # END annotations
   labels:
     app: 'cert-manager'
@@ -8050,8 +8042,6 @@ kind: CustomResourceDefinition
 metadata:
   name: issuers.cert-manager.io
   # START annotations
-  annotations:
-    helm.sh/resource-policy: keep
   # END annotations
   labels:
     app: 'cert-manager'
@@ -11777,8 +11767,6 @@ kind: CustomResourceDefinition
 metadata:
   name: orders.acme.cert-manager.io
   # START annotations
-  annotations:
-    helm.sh/resource-policy: keep
   # END annotations
   labels:
     app: 'cert-manager'
