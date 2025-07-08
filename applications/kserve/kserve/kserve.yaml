@@ -10,8 +10,6 @@ metadata:
 apiVersion: apiextensions.k8s.io/v1
 kind: CustomResourceDefinition
 metadata:
-  annotations:
-    controller-gen.kubebuilder.io/version: v0.16.2
   name: clusterservingruntimes.serving.kserve.io
 spec:
   group: serving.kserve.io
@@ -4062,8 +4060,6 @@ spec:
 apiVersion: apiextensions.k8s.io/v1
 kind: CustomResourceDefinition
 metadata:
-  annotations:
-    controller-gen.kubebuilder.io/version: v0.16.2
   name: clusterstoragecontainers.serving.kserve.io
 spec:
   group: serving.kserve.io
@@ -4789,8 +4785,6 @@ spec:
 apiVersion: apiextensions.k8s.io/v1
 kind: CustomResourceDefinition
 metadata:
-  annotations:
-    controller-gen.kubebuilder.io/version: v0.16.2
   name: inferencegraphs.serving.kserve.io
 spec:
   group: serving.kserve.io
@@ -5423,9 +5417,7 @@ spec:
 apiVersion: apiextensions.k8s.io/v1
 kind: CustomResourceDefinition
 metadata:
-  annotations:
     cert-manager.io/inject-ca-from: kserve/serving-cert
-    controller-gen.kubebuilder.io/version: v0.16.2
   name: inferenceservices.serving.kserve.io
 spec:
   group: serving.kserve.io
@@ -26921,8 +26913,6 @@ spec:
 apiVersion: apiextensions.k8s.io/v1
 kind: CustomResourceDefinition
 metadata:
-  annotations:
-    controller-gen.kubebuilder.io/version: v0.16.2
   name: localmodelcaches.serving.kserve.io
 spec:
   group: serving.kserve.io
@@ -27007,8 +26997,6 @@ spec:
 apiVersion: apiextensions.k8s.io/v1
 kind: CustomResourceDefinition
 metadata:
-  annotations:
-    controller-gen.kubebuilder.io/version: v0.16.2
   name: localmodelnodegroups.serving.kserve.io
 spec:
   group: serving.kserve.io
@@ -27699,8 +27687,6 @@ spec:
 apiVersion: apiextensions.k8s.io/v1
 kind: CustomResourceDefinition
 metadata:
-  annotations:
-    controller-gen.kubebuilder.io/version: v0.16.2
   name: localmodelnodes.serving.kserve.io
 spec:
   group: serving.kserve.io
@@ -27760,8 +27746,6 @@ spec:
 apiVersion: apiextensions.k8s.io/v1
 kind: CustomResourceDefinition
 metadata:
-  annotations:
-    controller-gen.kubebuilder.io/version: v0.16.2
   name: servingruntimes.serving.kserve.io
 spec:
   group: serving.kserve.io
@@ -31812,8 +31796,6 @@ spec:
 apiVersion: apiextensions.k8s.io/v1
 kind: CustomResourceDefinition
 metadata:
-  annotations:
-    controller-gen.kubebuilder.io/version: v0.16.2
   name: trainedmodels.serving.kserve.io
 spec:
   group: serving.kserve.io
@@ -32921,7 +32903,6 @@ metadata:
 apiVersion: v1
 kind: Service
 metadata:
-  annotations:
     prometheus.io/port: "8443"
     prometheus.io/scheme: https
     prometheus.io/scrape: "true"
@@ -33222,7 +33203,6 @@ spec:
 apiVersion: admissionregistration.k8s.io/v1
 kind: MutatingWebhookConfiguration
 metadata:
-  annotations:
     cert-manager.io/inject-ca-from: kserve/serving-cert
   creationTimestamp: null
   name: inferenceservice.serving.kserve.io
@@ -33279,7 +33259,6 @@ webhooks:
 apiVersion: admissionregistration.k8s.io/v1
 kind: ValidatingWebhookConfiguration
 metadata:
-  annotations:
     cert-manager.io/inject-ca-from: kserve/serving-cert
   creationTimestamp: null
   name: clusterservingruntime.serving.kserve.io
@@ -33308,7 +33287,6 @@ webhooks:
 apiVersion: admissionregistration.k8s.io/v1
 kind: ValidatingWebhookConfiguration
 metadata:
-  annotations:
     cert-manager.io/inject-ca-from: kserve/serving-cert
   creationTimestamp: null
   name: inferencegraph.serving.kserve.io
@@ -33337,7 +33315,6 @@ webhooks:
 apiVersion: admissionregistration.k8s.io/v1
 kind: ValidatingWebhookConfiguration
 metadata:
-  annotations:
     cert-manager.io/inject-ca-from: kserve/serving-cert
   creationTimestamp: null
   name: inferenceservice.serving.kserve.io
@@ -33366,7 +33343,6 @@ webhooks:
 apiVersion: admissionregistration.k8s.io/v1
 kind: ValidatingWebhookConfiguration
 metadata:
-  annotations:
     cert-manager.io/inject-ca-from: kserve/serving-cert
   creationTimestamp: null
   name: localmodelcache.serving.kserve.io
@@ -33396,7 +33372,6 @@ webhooks:
 apiVersion: admissionregistration.k8s.io/v1
 kind: ValidatingWebhookConfiguration
 metadata:
-  annotations:
     cert-manager.io/inject-ca-from: kserve/serving-cert
   creationTimestamp: null
   name: servingruntime.serving.kserve.io
@@ -33425,7 +33400,6 @@ webhooks:
 apiVersion: admissionregistration.k8s.io/v1
 kind: ValidatingWebhookConfiguration
 metadata:
-  annotations:
     cert-manager.io/inject-ca-from: kserve/serving-cert
   creationTimestamp: null
   name: trainedmodel.serving.kserve.io
