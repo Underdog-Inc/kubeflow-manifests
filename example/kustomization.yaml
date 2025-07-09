@@ -89,14 +89,14 @@ resources:
   # Tensorboard Web App
   - ../applications/tensorboard/tensorboards-web-app/upstream/overlays/istio
   # Training Operator
-  # - ../applications/training-operator/upstream/overlays/kubeflow
+  - ../applications/training-operator/upstream/overlays/kubeflow
   # User namespace
   - ../common/user-namespace/base
   # KServe
-  # - ../applications/kserve/kserve
-  # - ../applications/kserve/models-web-app/overlays/kubeflow
-# Spark Operator
-# - ../applications/spark/spark-operator/overlays/kubeflow
+  - ../applications/kserve/kserve
+  - ../applications/kserve/models-web-app/overlays/kubeflow
+  # Spark Operator
+  - ../applications/spark/spark-operator/overlays/kubeflow
 
 # Ray is an experimental integration
 # Here is the documentation for Ray: https://docs.ray.io/en/latest/
