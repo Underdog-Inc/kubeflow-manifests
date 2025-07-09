@@ -1,6 +1,8 @@
 apiVersion: apiextensions.k8s.io/v1
 kind: CustomResourceDefinition
 metadata:
+  annotations:
+    controller-gen.kubebuilder.io/version: v0.16.2
   labels:
     app: kserve
     app.kubernetes.io/name: kserve
@@ -4054,6 +4056,8 @@ spec:
 apiVersion: apiextensions.k8s.io/v1
 kind: CustomResourceDefinition
 metadata:
+  annotations:
+    controller-gen.kubebuilder.io/version: v0.16.2
   labels:
     app: kserve
     app.kubernetes.io/name: kserve
@@ -4782,6 +4786,8 @@ spec:
 apiVersion: apiextensions.k8s.io/v1
 kind: CustomResourceDefinition
 metadata:
+  annotations:
+    controller-gen.kubebuilder.io/version: v0.16.2
   labels:
     app: kserve
     app.kubernetes.io/name: kserve
@@ -5417,7 +5423,9 @@ spec:
 apiVersion: apiextensions.k8s.io/v1
 kind: CustomResourceDefinition
 metadata:
+  annotations:
     cert-manager.io/inject-ca-from: kubeflow/serving-cert
+    controller-gen.kubebuilder.io/version: v0.16.2
   labels:
     app: kserve
     app.kubernetes.io/name: kserve
@@ -26916,6 +26924,8 @@ spec:
 apiVersion: apiextensions.k8s.io/v1
 kind: CustomResourceDefinition
 metadata:
+  annotations:
+    controller-gen.kubebuilder.io/version: v0.16.2
   labels:
     app: kserve
     app.kubernetes.io/name: kserve
@@ -27003,6 +27013,8 @@ spec:
 apiVersion: apiextensions.k8s.io/v1
 kind: CustomResourceDefinition
 metadata:
+  annotations:
+    controller-gen.kubebuilder.io/version: v0.16.2
   labels:
     app: kserve
     app.kubernetes.io/name: kserve
@@ -27696,6 +27708,8 @@ spec:
 apiVersion: apiextensions.k8s.io/v1
 kind: CustomResourceDefinition
 metadata:
+  annotations:
+    controller-gen.kubebuilder.io/version: v0.16.2
   labels:
     app: kserve
     app.kubernetes.io/name: kserve
@@ -27758,6 +27772,8 @@ spec:
 apiVersion: apiextensions.k8s.io/v1
 kind: CustomResourceDefinition
 metadata:
+  annotations:
+    controller-gen.kubebuilder.io/version: v0.16.2
   labels:
     app: kserve
     app.kubernetes.io/name: kserve
@@ -31811,6 +31827,8 @@ spec:
 apiVersion: apiextensions.k8s.io/v1
 kind: CustomResourceDefinition
 metadata:
+  annotations:
+    controller-gen.kubebuilder.io/version: v0.16.2
   labels:
     app: kserve
     app.kubernetes.io/name: kserve
@@ -32727,6 +32745,7 @@ metadata:
 apiVersion: v1
 kind: Service
 metadata:
+  annotations:
     prometheus.io/port: "8443"
     prometheus.io/scheme: https
     prometheus.io/scrape: "true"
@@ -33059,6 +33078,7 @@ spec:
 apiVersion: admissionregistration.k8s.io/v1
 kind: MutatingWebhookConfiguration
 metadata:
+  annotations:
     cert-manager.io/inject-ca-from: kubeflow/serving-cert
   creationTimestamp: null
   labels:
@@ -33118,6 +33138,7 @@ webhooks:
 apiVersion: admissionregistration.k8s.io/v1
 kind: ValidatingWebhookConfiguration
 metadata:
+  annotations:
     cert-manager.io/inject-ca-from: kubeflow/serving-cert
   creationTimestamp: null
   labels:
@@ -33149,6 +33170,7 @@ webhooks:
 apiVersion: admissionregistration.k8s.io/v1
 kind: ValidatingWebhookConfiguration
 metadata:
+  annotations:
     cert-manager.io/inject-ca-from: kubeflow/serving-cert
   creationTimestamp: null
   labels:
@@ -33180,6 +33202,7 @@ webhooks:
 apiVersion: admissionregistration.k8s.io/v1
 kind: ValidatingWebhookConfiguration
 metadata:
+  annotations:
     cert-manager.io/inject-ca-from: kubeflow/serving-cert
   creationTimestamp: null
   labels:
@@ -33211,6 +33234,7 @@ webhooks:
 apiVersion: admissionregistration.k8s.io/v1
 kind: ValidatingWebhookConfiguration
 metadata:
+  annotations:
     cert-manager.io/inject-ca-from: kubeflow/serving-cert
   creationTimestamp: null
   labels:
@@ -33243,6 +33267,7 @@ webhooks:
 apiVersion: admissionregistration.k8s.io/v1
 kind: ValidatingWebhookConfiguration
 metadata:
+  annotations:
     cert-manager.io/inject-ca-from: kubeflow/serving-cert
   creationTimestamp: null
   labels:
@@ -33274,6 +33299,7 @@ webhooks:
 apiVersion: admissionregistration.k8s.io/v1
 kind: ValidatingWebhookConfiguration
 metadata:
+  annotations:
     cert-manager.io/inject-ca-from: kubeflow/serving-cert
   creationTimestamp: null
   labels:
