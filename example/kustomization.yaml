@@ -96,7 +96,7 @@ resources:
   - ../applications/kserve/kserve
   - ../applications/kserve/models-web-app/overlays/kubeflow
   # Spark Operator
-  - ../applications/spark/spark-operator/overlays/kubeflow
+  # - ../applications/spark/spark-operator/overlays/kubeflow
 
 # Ray is an experimental integration
 # Here is the documentation for Ray: https://docs.ray.io/en/latest/
