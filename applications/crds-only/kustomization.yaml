@@ -4,3 +4,5 @@ resources:
   - paddlejob-crd.yaml
   - pytorchjob-crd.yaml
   - inferenceservice-crd.yaml
+  - scheduledsparkapplications-crd.yaml
+  - sparkapplications-crd.yaml
