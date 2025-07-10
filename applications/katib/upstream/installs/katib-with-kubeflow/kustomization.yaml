@@ -21,6 +21,7 @@ images:
 
 patchesStrategicMerge:
   - patches/remove-namespace.yaml
+  - patches/katib-mysql-storageclass.yaml
 
 patches:
   # Extend RBAC permission list of katib-ui so it can
