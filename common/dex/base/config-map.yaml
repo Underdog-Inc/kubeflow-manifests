@@ -4,7 +4,7 @@ metadata:
   name: dex
 data:
   config.yaml: |
-    issuer: http://dex.auth.svc.cluster.local:5556/dex
+    issuer: https://kubeflow.develop.pe.underdogsports.com/dex
     storage:
       type: kubernetes
       config:
