@@ -6,9 +6,3 @@ resources:
 
 patchesStrategicMerge:
   - config-map-patch.yaml
-
-configMapGenerator:
-  - name: dex-env
-    behavior: merge
-    envs:
-      - secret_params.env
