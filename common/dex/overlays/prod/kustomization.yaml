@@ -11,4 +11,4 @@ configMapGenerator:
   - name: dex-env
     behavior: merge
     envs:
-      - ../../base/secret_params.env
+      - secret_params.env
