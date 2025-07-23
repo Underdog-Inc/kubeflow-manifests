@@ -26,6 +26,8 @@ data:
         clientID: 0oatdb0yzheg9hu6S697
         clientSecret: RdZ-Mvq615hErZBCdG53Y5uaTi-WZ61eHPl1fFha_mskHx2AZiOpJjfu4VlmO_HV
         redirectURI: https://kubeflow.develop.pe.underdogsports.com/dex/callback
+        userIDKey: email
+        insecureSkipEmailVerified: true
         scopes:
         - openid
         - email
