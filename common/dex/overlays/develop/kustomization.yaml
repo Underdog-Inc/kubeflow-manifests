@@ -4,6 +4,7 @@ namespace: auth
 resources:
   - ../../base
   - virtual-service.yaml
+  - config-map.yaml
 
 replacements:
   - source:
@@ -37,6 +38,3 @@ replacements:
           group: networking.istio.io
           kind: VirtualService
           name: dex
-
-patchesStrategicMerge:
-  - config-map-patch.yaml
