@@ -22,6 +22,8 @@ configMapGenerator:
   - name: oauth2-proxy
     files:
       - oauth2_proxy.cfg
+    literals:
+      - version=bump-1
 
   - name: oauth2-proxy-theme
     files:
