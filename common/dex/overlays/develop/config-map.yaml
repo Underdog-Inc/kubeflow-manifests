@@ -31,8 +31,6 @@ data:
         scopes:
         - openid
         - email
-        - profile
-        - groups
     staticClients:
     - id: kubeflow-oidc-authservice
       redirectURIs:
