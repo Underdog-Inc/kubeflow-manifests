@@ -191,7 +191,7 @@ def server_factory(visualization_server_image,
                                     "resources": {
                                         "requests": {
                                             "cpu": "50m",
-                                            "memory": "200Mi"
+                                            "memory": "400Mi"
                                         },
                                         "limits": {
                                             "cpu": "500m",
