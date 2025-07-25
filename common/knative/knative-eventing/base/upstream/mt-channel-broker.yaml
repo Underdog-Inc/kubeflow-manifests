@@ -309,7 +309,7 @@ spec:
           resources:
             requests:
               cpu: 100m
-              memory: 100Mi
+              memory: 200Mi
           ports:
             - containerPort: 8080
               name: http
@@ -435,7 +435,7 @@ spec:
           resources:
             requests:
               cpu: 100m
-              memory: 100Mi
+              memory: 200Mi
           ports:
             - containerPort: 8080
               name: http
@@ -551,7 +551,7 @@ spec:
           resources:
             requests:
               cpu: 100m
-              memory: 100Mi
+              memory: 200Mi
           env:
             - name: SYSTEM_NAMESPACE
               valueFrom:

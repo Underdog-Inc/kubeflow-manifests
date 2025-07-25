@@ -639,7 +639,7 @@ spec:
           resources:
             requests:
               cpu: 100m
-              memory: 100Mi
+              memory: 200Mi
           env:
             - name: SYSTEM_NAMESPACE
               valueFrom:
@@ -786,10 +786,10 @@ spec:
           resources:
             requests:
               cpu: 125m
-              memory: 64Mi
+              memory: 128Mi
             limits:
               cpu: 1000m
-              memory: 2048Mi
+              memory: 4096Mi
           securityContext:
             allowPrivilegeEscalation: false
             readOnlyRootFilesystem: true
@@ -901,10 +901,10 @@ spec:
           resources:
             requests:
               cpu: 125m
-              memory: 64Mi
+              memory: 128Mi
             limits:
               cpu: 1000m
-              memory: 2048Mi
+              memory: 4096Mi
           securityContext:
             allowPrivilegeEscalation: false
             readOnlyRootFilesystem: true
@@ -997,10 +997,10 @@ spec:
           resources:
             requests:
               cpu: 100m
-              memory: 50Mi
+              memory: 100Mi
             limits:
               cpu: 200m
-              memory: 200Mi
+              memory: 400Mi
           env:
             - name: SYSTEM_NAMESPACE
               valueFrom:

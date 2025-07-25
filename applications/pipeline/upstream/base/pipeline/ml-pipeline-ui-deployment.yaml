@@ -94,5 +94,5 @@ spec:
         resources:
           requests:
             cpu: 10m
-            memory: 70Mi
+            memory: 140Mi
       serviceAccountName: ml-pipeline-ui

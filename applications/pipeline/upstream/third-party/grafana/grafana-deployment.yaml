@@ -50,11 +50,10 @@ spec:
         resources:
           limits:
             cpu: 100m
-            memory: 256Mi
+            memory: 512Mi
           requests:
             cpu: 100m
-            memory: 256Mi
+            memory: 512Mi
       securityContext:
         fsGroup: 472
         runAsUser: 472
-# TODO(jingzhang36): consider adding persistent volume if you would like the created dashboards to persist.

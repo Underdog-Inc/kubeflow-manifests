@@ -67,7 +67,7 @@ spec:
         resources:
           requests:
             cpu: 100m
-            memory: 800Mi
+            memory: 1600Mi
       securityContext:
         fsGroup: 999
         fsGroupChangePolicy: OnRootMismatch

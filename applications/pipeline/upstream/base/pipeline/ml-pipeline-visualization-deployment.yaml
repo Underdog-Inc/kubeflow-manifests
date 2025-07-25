@@ -60,5 +60,5 @@ spec:
         resources:
             requests:
               cpu: 30m
-              memory: 500Mi
+              memory: 1000Mi
       serviceAccountName: ml-pipeline-visualizationserver
