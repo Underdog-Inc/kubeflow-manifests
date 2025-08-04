@@ -26,6 +26,7 @@ spec:
       fromHeaders:
         - name: Authorization
           prefix: "Bearer "
+      # Need to abstract this out into an overlay as well
     - issuer: https://kubeflow.develop.pe.underdogsports.com/dex
       forwardOriginalToken: true
       outputClaimToHeaders:

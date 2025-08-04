@@ -23,8 +23,8 @@ data:
       name: Okta
       config:
         issuer: https://underdogsports.okta.com/oauth2/default
-        clientID: 0oatdb0yzheg9hu6S697
-        clientSecret: RdZ-Mvq615hErZBCdG53Y5uaTi-WZ61eHPl1fFha_mskHx2AZiOpJjfu4VlmO_HV
+        clientID: 0oatvefafpuUjPhuj697
+        clientSecret: BJWLk5fl0Q1T1G-iEPeecRC_gBXQ4xoAbQjLIvxQOkYzuzpDpqshQvJjZe59WS2Y
         redirectURI: https://kubeflow.prod.pe.underdogsports.com/dex/callback
         userIDKey: email
         insecureSkipEmailVerified: true
