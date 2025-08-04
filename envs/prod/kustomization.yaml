@@ -98,10 +98,13 @@ resources:
   # Spark Operator
   - ../applications/spark/spark-operator/overlays/kubeflow
 
-# Ray is an experimental integration
-# Here is the documentation for Ray: https://docs.ray.io/en/latest/
-# Here is the internal documentation for Ray: - ../experimental/ray/README.md
-# - ../experimental/ray/kuberay-operator/overlays/kubeflow
+  # Ray is an experimental integration
+  # Here is the documentation for Ray: https://docs.ray.io/en/latest/
+  # Here is the internal documentation for Ray: - ../experimental/ray/README.md
+  # - ../experimental/ray/kuberay-operator/overlays/kubeflow
+
+  # Underdog Fantasy Specific Components
+  - ../../common/components/underdogfantasy/base
 
 components:
 # Pod Security Standards

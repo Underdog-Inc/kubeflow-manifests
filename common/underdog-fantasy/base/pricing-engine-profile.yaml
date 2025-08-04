@@ -1,0 +1,12 @@
+apiVersion: kubeflow.org/v1
+kind: Profile
+metadata:
+  name: pricing-engine
+  annotations:
+    role: admin
+    user: chris.miller@underdogfantasy.com
+spec:
+  owner:
+    kind: User
+    name: chris.miller@underdogfantasy.com
+  resourceQuotaSpec: {}

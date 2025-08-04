@@ -1,0 +1,16 @@
+apiVersion: rbac.authorization.k8s.io/v1
+kind: RoleBinding
+metadata:
+  name: admin-david
+  namespace: pricing-engine
+  annotations:
+    role: admin
+    user: david.newell@underdogfantasy.com
+roleRef:
+  apiGroup: rbac.authorization.k8s.io
+  kind: ClusterRole
+  name: kubeflow-admin
+subjects:
+  - kind: User
+    name: david.newell@underdogfantasy.com
+    apiGroup: rbac.authorization.k8s.io

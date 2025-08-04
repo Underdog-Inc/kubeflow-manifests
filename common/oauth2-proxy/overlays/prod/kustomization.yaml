@@ -8,7 +8,8 @@ components:
   - ../../components/istio-external-auth
 
 configMapGenerator:
-  - name: oauth2-proxy
-    behavior: replace
-    files:
-      - oauth2_proxy.cfg
+  - name: oauth2-proxy-parameters
+    behavior: merge
+    literals:
+      # Configs for oauth2-proxy
+      - ALLOW_SELF_SIGNED_ISSUER=true

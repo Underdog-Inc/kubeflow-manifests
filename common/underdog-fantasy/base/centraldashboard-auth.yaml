@@ -1,0 +1,20 @@
+apiVersion: security.istio.io/v1beta1
+kind: RequestAuthentication
+metadata:
+  name: centraldashboard-auth
+  namespace: kubeflow
+spec:
+  selector:
+    matchLabels:
+      app: centraldashboard
+  jwtRules:
+    - issuer: https://kubeflow.prod.pe.underdogsports.com/dex
+      forwardOriginalToken: true
+      outputClaimToHeaders:
+        - header: kubeflow-userid
+          claim: email
+        - header: kubeflow-groups
+          claim: groups
+      fromHeaders:
+        - name: Authorization
+          prefix: "Bearer "

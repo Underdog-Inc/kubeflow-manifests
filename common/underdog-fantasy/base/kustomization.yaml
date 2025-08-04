@@ -1,0 +1,10 @@
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+resources:
+  - admin-chris.yaml
+  - admin-josh.yaml
+  - admin-david.yaml
+  - admin-clusterrolebinding.yaml
+  - allow-kubeflow-users.yaml
+  - centraldashboard-auth.yaml
+  - pricing-engine-profile.yaml

@@ -1,0 +1,13 @@
+apiVersion: security.istio.io/v1beta1
+kind: AuthorizationPolicy
+metadata:
+  name: allow-kubeflow-users
+  namespace: kubeflow
+spec:
+  selector:
+    matchLabels:
+      app: centraldashboard
+  rules:
+    - from:
+        - source:
+            requestPrincipals: ["*"]
