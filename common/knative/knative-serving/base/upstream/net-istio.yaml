@@ -250,10 +250,10 @@ spec:
           resources:
             requests:
               cpu: 30m
-              memory: 160Mi
+              memory: 256Mi
             limits:
               cpu: 300m
-              memory: 1600Mi
+              memory: 2048Mi
           env:
             - name: SYSTEM_NAMESPACE
               valueFrom:
