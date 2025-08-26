@@ -23,3 +23,10 @@ spec:
         - /dex/*
         - /dex/**
         - /oauth2/*
+        # Exclude PE API paths from oauth2-proxy
+        - /data*
+        - /health*
+        - /norm/*
+        - /sgp*
+        - /docs*
+        - /sim-manager*

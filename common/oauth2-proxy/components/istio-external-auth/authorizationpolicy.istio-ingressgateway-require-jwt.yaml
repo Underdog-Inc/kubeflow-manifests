@@ -22,3 +22,10 @@ spec:
         - /dex/*
         - /dex/**
         - /oauth2/*
+        # Exclude PE API paths from JWT requirement
+        - /data*
+        - /health*
+        - /norm/*
+        - /sgp*
+        - /docs*
+        - /sim-manager*
