@@ -6,7 +6,7 @@ spec:
   gateways:
   - kubeflow-gateway
   hosts:
-  - kubeflow.develop.pe.underdogsports.com
+  - '*'
   http:
   - headers:
       request:
