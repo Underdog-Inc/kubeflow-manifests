@@ -10,7 +10,7 @@ spec:
   gateways:
   - {{ .Values.istio.gateway.name }}
   hosts:
-  - '*'
+  - kubeflow.develop.pe.underdogsports.com
   http:
   - headers:
       request:

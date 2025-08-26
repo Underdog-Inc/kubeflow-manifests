@@ -7,7 +7,7 @@ spec:
   gateways:
   - knative-serving/knative-ingress-gateway
   hosts:
-  - '*'
+  - kubeflow.develop.pe.underdogsports.com
   http:
   - match:
     - uri:
