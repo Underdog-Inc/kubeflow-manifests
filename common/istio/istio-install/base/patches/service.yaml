@@ -3,5 +3,9 @@ kind: Service
 metadata:
   name: istio-ingressgateway
   namespace: istio-system
+  annotations:
+    ad.datadoghq.com/service.check_names: '["istio"]'
+    ad.datadoghq.com/service.init_configs: '[{}]'
+    ad.datadoghq.com/service.instances: '[{"istio_mesh_endpoint": "http://%%host%%:15020/stats/prometheus", "use_openmetrics": true}]'
 spec:
   type: ClusterIP
