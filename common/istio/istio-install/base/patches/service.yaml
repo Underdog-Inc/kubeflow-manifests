@@ -9,3 +9,8 @@ metadata:
     ad.datadoghq.com/service.instances: '[{"istio_mesh_endpoint": "http://%%host%%:15020/stats/prometheus", "use_openmetrics": true}]'
 spec:
   type: ClusterIP
+  ports:
+    - name: http-monitoring
+      port: 15020
+      protocol: TCP
+      targetPort: 15020
